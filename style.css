@@ -30,7 +30,7 @@
 .task {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 .task-row-wrapper {
     display: flex;
@@ -113,7 +113,6 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -133,7 +132,7 @@
     width: 226px;
 }
 .task-input-field {
-    width: 226px
+    width: 226px;
 }
 .delete-button-img {
     height: 2em;
@@ -152,13 +151,13 @@
 
 /* Edit Task */
 .completed-tasks-list > .task > .task-input-field {
-    display: none
+    display: none;
 }
 
 .active-tasks-list > .edit-mode > .task-input-field,
 .completed-tasks-list > .edit-mode > .task-input-field {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .active-tasks-list > .edit-mode > .task,
