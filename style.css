@@ -1,7 +1,7 @@
 /* Basic Style */
 .page-body {
     background-color: #f8f8f8;
-    color: #333;
+    color:#333;
     font-family: Lato, sans-serif;
 }
 .matrix-image-wrapper {
@@ -18,7 +18,8 @@
 }
 
 @media (max-width:768px) {
-.matrix-image-wrapper { text-align: center;
+.matrix-image-wrapper { 
+    text-align: center;
 }
 }
 .new-task-wrapper {
@@ -36,20 +37,20 @@
 }
 .active-tasks-list,
 .completed-tasks-list {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 .active-task-item,
 .completed-task-item,
 .active-tasks-title {
-    list-style:none;
+    list-style: none;
 }
 .task-checkbox,
 .task-input-field,
 .edit-task-button,
 .delete-task-button,
 .task-add-button {
-    outline:none;
+    outline: none;
 }
 .edit-task-button,
 .delete-task-button,
@@ -151,16 +152,16 @@
 
 /* Edit Task */
 .completed-tasks-list > .task > .task-input-field {
-    display:none
+    display: none
 }
 
 .active-tasks-list > .edit-mode > .task-input-field,
 .completed-tasks-list > .edit-mode > .task-input-field {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .active-tasks-list > .edit-mode > .task,
 .completed-tasks-list > .edit-mode > .task {
-    display:none;
+    display: none;
 }
