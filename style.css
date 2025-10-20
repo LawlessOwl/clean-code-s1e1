@@ -144,23 +144,23 @@
 }
 
 /* Completed */
-.completed-tasks-list > .task {
+#completed-tasks-list .task {
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.completed-tasks-list > .task > .task-input-field {
+.task-input-field {
     display: none;
 }
 
-.active-tasks-list > .edit-mode > .task-input-field,
-.completed-tasks-list > .edit-mode > .task-input-field {
+#active-tasks-list .edit-mode .task-input-field,
+#completed-tasks-list .edit-mode .task-input-field {
     display: inline-block;
     width: 224px;
 }
 
-.active-tasks-list > .edit-mode > .task,
-.completed-tasks-list > .edit-mode > .task {
+#active-tasks-list .edit-mode .task,
+#completed-tasks-list .edit-mode .task {
     display: none;
 }
