@@ -41,6 +41,7 @@
     padding: 0px;
 }
 .active-task-item,
+.task-checkbox,
 .completed-task-item,
 .active-tasks-title {
     list-style: none;
@@ -69,9 +70,7 @@
     color: #3a3A3a;
 }
 /* Heading */
-.active-tasks-title,
-.new-task-label,
-.task {
+.active-tasks-title {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -80,6 +79,7 @@
     margin: 0;
     text-transform: uppercase;
 }
+
 .new-task-input-field,
 .task-input-field {
     margin: 0;
